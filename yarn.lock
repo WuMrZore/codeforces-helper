@@ -2679,17 +2679,17 @@ vfonts@^0.0.3:
   resolved "https://registry.npmmirror.com/vfonts/-/vfonts-0.0.3.tgz#999d66fecea18efee3f2b966c81101ae8ce01a29"
   integrity sha512-nguyw8L6Un8eelg1vQ31vIU2ESxqid7EYmy8V+MDeMaHBqaRSkg3dTBToC1PR00D89UzS/SLkfYPnx0Wf23IQQ==
 
-vite-plugin-electron@^0.4.5:
-  version "0.4.6"
-  resolved "https://registry.npmmirror.com/vite-plugin-electron/-/vite-plugin-electron-0.4.6.tgz#18b1de131fdf5dfdc97e51f695974e47ac4d2843"
-  integrity sha512-sTSmETJSy0yitJJFyc3BsF4yt0//HR2QguDtODHlA9KFxSlIHSiTF7ogKNovRDgsS0Ck6ttjLoU7kOMi9Gccfg==
-  dependencies:
-    vite-plugin-optimizer "^1.3.3"
+vite-plugin-electron-renderer@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-electron-renderer/-/vite-plugin-electron-renderer-0.5.0.tgz#e50df588907944649af053accd663d9d0c2f0499"
+  integrity sha512-BIshOw7GVAbew8vm588gOnTzed37FGcvM4zrtm4GipsBWykHwZ/oY7kZWJxX78erpdGq0eOfq0B+w0EezZpo9A==
 
-vite-plugin-optimizer@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.npmmirror.com/vite-plugin-optimizer/-/vite-plugin-optimizer-1.3.3.tgz#c47b5bef3b124c3ed764f8cf7cb07554de40a7d4"
-  integrity sha512-CsVJBGULVhdK5lFgY2DBRWdYDQzpxHNAcqQb4GSSPih8YY/UmBOtLy4+rU8kForAhbkzqH5ahnomJbrbzC/MhQ==
+vite-plugin-electron@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-electron/-/vite-plugin-electron-0.6.1.tgz#1c7d2ebe32f28360bfbd58cf727e2898c23e326b"
+  integrity sha512-aYKQQox0qLCvxXudR+9cZM61DRF8jicisMCWGFMwr5G6C0+MXMdnV9uX7h7J9YWVMJ7wDXQK8FA3vQuA24MUcw==
+  dependencies:
+    vite-plugin-electron-renderer "^0.5.0"
 
 vite-plugin-resolve@^2.1.2:
   version "2.1.2"
